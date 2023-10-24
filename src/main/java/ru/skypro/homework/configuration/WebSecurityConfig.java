@@ -18,6 +18,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig {
 
+
   private static final String[] AUTH_WHITELIST = {
           "/ads",
           "/ads/*/image",
